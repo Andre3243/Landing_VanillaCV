@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conocimientos - Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html" style="color: inherit; text-decoration: none;">VídeoCreator</a></h1>
+            </div>
+            <div class="header-right">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="sobre-mi.html">Sobre mí</a></li>
+                        <li><a href="conocimientos.html">Conocimientos</a></li>
+                        <li><a href="programacion.html">Programación</a></li>
+                        <li><a href="ux.html">UX/UI</a></li>
+                        <li><a href="edicion.html">Edición</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+                <button class="theme-toggle" id="themeToggle" title="Cambiar tema">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hero-section-page">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Lo que manejo</h2>
+                <p>Herramientas y programas que domino</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <section class="skills" style="padding: 5rem 0;">
+        <div class="container">
+            <h2>Mi kit de herramientas</h2>
+            <p class="skills-intro">Programas y tecnologías que utilizo a diario para crear soluciones audiovisuales y digitales de calidad profesional.</p>
+            <div class="tools-grid tools-grid-large">
+                <span class="tool-pill">Adobe Premiere</span>
+                <span class="tool-pill">After Effects</span>
+                <span class="tool-pill">Photoshop</span>
+                <span class="tool-pill">Illustrator</span>
+                <span class="tool-pill">Figma</span>
+                <span class="tool-pill">Visual Studio Code</span>
+                <span class="tool-pill">DaVinci Resolve</span>
+                <span class="tool-pill">Canva</span>
+                <span class="tool-pill">HTML5</span>
+                <span class="tool-pill">CSS3</span>
+                <span class="tool-pill">JavaScript</span>
+                <span class="tool-pill">React</span>
+                <span class="tool-pill">Git & GitHub</span>
+                <span class="tool-pill">Adobe XD</span>
+                <span class="tool-pill">Motion Graphics</span>
+                <span class="tool-pill">Color Grading</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>¿Tienes un proyecto en mente?</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Tu correo" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Tu teléfono" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" placeholder="Asunto" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+            <p class="form-feedback" id="formFeedback"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 VídeoCreator. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

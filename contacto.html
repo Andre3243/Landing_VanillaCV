@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html" style="color: inherit; text-decoration: none;">VídeoCreator</a></h1>
+            </div>
+            <div class="header-right">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="sobre-mi.html">Sobre mí</a></li>
+                        <li><a href="conocimientos.html">Conocimientos</a></li>
+                        <li><a href="programacion.html">Programación</a></li>
+                        <li><a href="ux.html">UX/UI</a></li>
+                        <li><a href="edicion.html">Edición</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+                <button class="theme-toggle" id="themeToggle" title="Cambiar tema">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hero-section-page">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Ponte en contacto</h2>
+                <p>Cuéntame sobre tu proyecto</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Form -->
+    <section class="contact" style="padding: 5rem 0;">
+        <div class="container">
+            <h2>Envíame un mensaje</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Tu correo" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Tu teléfono" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" placeholder="Asunto" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="6" placeholder="Tu mensaje" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar mensaje</button>
+            </form>
+            <p class="form-feedback" id="formFeedback"></p>
+
+            <!-- Información de Contacto Alternativa -->
+            <div style="margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--color-border); text-align: center;">
+                <h3 style="color: #000000; margin-bottom: 1.5rem;">
+                    <span style="color: #000000; display: block;">También puedes encontrarme en:</span>
+                </h3>
+                <p style="color: #000000; font-size: 1.1rem; margin: 0.5rem 0;">
+                    📧 Email: sebastian@videocreator.com
+                </p>
+                <p style="color: #000000; font-size: 1.1rem; margin: 0.5rem 0;">
+                    📱 WhatsApp: +57 (XXX) XXXX-XXXX
+                </p>
+                <p style="color: #000000; font-size: 1.1rem; margin: 0.5rem 0;">
+                    📍 Ubicación: Cúcuta, Colombia
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 VídeoCreator. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

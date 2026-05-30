@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos - Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html" style="color: inherit; text-decoration: none;">VídeoCreator</a></h1>
+            </div>
+            <div class="header-right">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="sobre-mi.html">Sobre mí</a></li>
+                        <li><a href="conocimientos.html">Conocimientos</a></li>
+                        <li><a href="programacion.html">Programación</a></li>
+                        <li><a href="ux.html">UX/UI</a></li>
+                        <li><a href="edicion.html">Edición</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+                <button class="theme-toggle" id="themeToggle" title="Cambiar tema">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hero-section-page">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Mis Videos</h2>
+                <p>Galería de proyectos audiovisuales</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de Videos -->
+    <section class="gallery" style="padding: 5rem 0;">
+        <div class="container">
+            <h2>Trabajos Destacados</h2>
+            <div class="gallery-grid">
+                <!-- Video 1 -->
+                <div class="gallery-item">
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/wozN4IySBH0" title="Video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <h3>Video 1</h3>
+                    <p>Edición de un proyecto de video montaje sobre una motossierra.</p>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="gallery-item">
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/y5ZRQ9FjCe4" title="Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <h3>Video 2</h3>
+                    <p>Proyecto audiovisual Universitario, sobre contar la historia de una leyenda colombiana.</p>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="gallery-item">
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/AlDpSf0Ff3M?t=15&feature=share" title="Video 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <h3>Video 3</h3>
+                    <p>Video corto sobre la historia de una cafetería ambientada en Japón en Cúcuta.</p>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="gallery-item">
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/EYuQ8VsKpVg" title="Video 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <h3>Video 4</h3>
+                    <p>Video montaje usando cámara 3D y pantalla verde a modo de CV con los trabajos universitarios.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>¿Interesado en mi trabajo?</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Tu correo" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Tu teléfono" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" placeholder="Asunto" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+            <p class="form-feedback" id="formFeedback"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 VídeoCreator. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

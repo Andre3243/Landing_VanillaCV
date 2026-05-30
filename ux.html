@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX/UI - Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html" style="color: inherit; text-decoration: none;">VídeoCreator</a></h1>
+            </div>
+            <div class="header-right">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="sobre-mi.html">Sobre mí</a></li>
+                        <li><a href="conocimientos.html">Conocimientos</a></li>
+                        <li><a href="programacion.html">Programación</a></li>
+                        <li><a href="ux.html">UX/UI</a></li>
+                        <li><a href="edicion.html">Edición</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+                <button class="theme-toggle" id="themeToggle" title="Cambiar tema">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hero-section-page">
+        <div class="container">
+            <div class="hero-content">
+                <h2>UX/UI Design</h2>
+                <p>Interfaz y experiencia pensadas en el usuario</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <section class="detail-section">
+        <div class="container">
+            <h2>Mi enfoque en UX/UI</h2>
+            <div class="detail-grid">
+                <article class="service-card">
+                    <h3>Diseño de interfaz</h3>
+                    <p>Diseño interfaces claras y atractivas para que el producto sea fácil de usar y entendible al primer vistazo.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Experiencia de usuario</h3>
+                    <p>Trabajo en la estructura del contenido y la navegación para que el usuario encuentre lo que necesita sin esfuerzo.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Herramientas -->
+    <section class="skills" style="padding: 3rem 0;">
+        <div class="container">
+            <h3 style="text-align: center; font-size: 1.8rem; margin-bottom: 2rem; color: #000000;">
+                Herramientas que uso
+            </h3>
+            <div class="tools-grid-large">
+                <span class="tool-pill">Figma</span>
+                <span class="tool-pill">Adobe XD</span>
+                <span class="tool-pill">Photoshop</span>
+                <span class="tool-pill">Illustrator</span>
+                <span class="tool-pill">Wireframing</span>
+                <span class="tool-pill">Prototipado</span>
+                <span class="tool-pill">Usability Testing</span>
+                <span class="tool-pill">Design Systems</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>¿Tienes un proyecto en mente?</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Tu correo" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Tu teléfono" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" placeholder="Asunto" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+            <p class="form-feedback" id="formFeedback"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 VídeoCreator. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
