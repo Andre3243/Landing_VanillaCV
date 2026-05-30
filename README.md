@@ -1,4 +1,4 @@
-# Portafolio de Editor de Video 🎬
+# Portafolio 
 
 Un portafolio profesional y minimalista para mostrar trabajos de edición de video. Construido con **HTML, CSS y JavaScript vanilla** sin dependencias externas.
 
